@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mode_round" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingTop="140dp"
+            android:text="有效松弛肩部及颈部肌肉，\n改善血液循环和淋巴循环"
+            android:textSize="11sp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/llMenuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <me.henry.uicollections.circlemenu.MyCircleMenuLayout
+                android:id="@+id/id_menulayout"
+                android:layout_width="531dp"
+                android:layout_height="531dp"
+                android:background="@android:color/transparent"
+                android:translationX="-238dp"></me.henry.uicollections.circlemenu.MyCircleMenuLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
