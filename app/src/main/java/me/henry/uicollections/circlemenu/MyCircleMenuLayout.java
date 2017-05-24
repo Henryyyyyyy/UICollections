@@ -626,7 +626,7 @@ public class MyCircleMenuLayout extends ViewGroup {
 	/**
 	 * 自动滚动的任务
 	 *
-	 * @author zhy
+	 * 
 	 *
 	 */
 	private class AutoFlingRunnable implements Runnable {
